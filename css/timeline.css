@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+a{color:#007bc4/*#424242*/; text-decoration:none;}
+a:hover{text-decoration:underline}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+
+
+#main{width:910px; min-height:600px; margin:30px auto 0 auto;  -moz-border-radius:12px;-khtml-border-radius: 12px;-webkit-border-radius: 12px; border-radius:12px;}
+h2.top_title{margin:4px 20px; padding-top:15px; padding-left:20px; padding-bottom:10px; border-bottom:1px solid #d3d3d3; font-size:18px; color:#a84c10;}
+
+#timeline {width: 800px;height: 600px;overflow: hidden;margin-left: 100px;position: relative;background: url('../images/dot.gif') left 45px repeat-x;}
+#dates {width: 800px;height: 60px;overflow: hidden;}
+#dates li {list-style: none;float: left;width: 100px;height: 50px;font-size: 24px;background: url('../images/biggerdot.png') center bottom no-repeat;}
+#dates a {line-height: 38px;padding-bottom: 10px;}
+#dates .selected {font-size: 38px;}
+#issues {width: 800px;height: 500px;overflow: hidden;}
+#issues li {width: 800px;height: 500px;list-style: none;float: left;}
+#issues li h1 {color: #ffcc00;font-size: 42px;margin: 20px 0;text-shadow: #000 1px 1px 2px;}
+#issues li p {font-size: 14px; margin-right:50px; font-weight: normal;line-height: 22px;}
