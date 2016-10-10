@@ -1,0 +1,47 @@
+.bottomInfo
+{
+	clear:both;
+	border-top:1px solid #dadada;
+	height:56px;
+	background-color:#323232;
+	overflow: hidden;
+	min-width: 1300px;
+    width: 100%;
+    position: relative;
+}
+/*cyy 20150922 修改*/
+.bottomInfo div
+{
+	font-size:12px;
+	text-align:center;
+	line-height:56px;
+	
+}
+/*cyy 20150922 修改*/
+.bottomInfo label
+{
+	color:rgb(102,102,102);
+}
+
+/*cyy 20150922 修改*/
+.bottomInfo span
+{
+	padding-right:25px; 
+	color:rgb(151,152,147);
+}
+
+/*cyy 20150922 修改*/
+.bottomInfo a
+{
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration:none;
+	color:rgb(151,152,147);
+}
+
+/*cyy 20150922 修改*/
+.bottomInfo a:hover
+{
+	text-decoration:none;
+	color:Yellow;
+}

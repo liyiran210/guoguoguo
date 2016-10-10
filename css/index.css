@@ -1,0 +1,369 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #f2f2f2;
+		font-family: "微软雅黑";
+
+}
+/*
+.showPic
+{
+	clear:both;
+	background:url(../images/index_06.jpg);
+	margin:0px auto;
+	width:1004px;
+	height:281px;
+}
+*/
+/*cyy 20150918 修改*/
+.showPic
+{
+	clear:both;
+	margin:0px auto;
+	height:330px;
+}
+.slides li a div 
+{
+	margin: 0 auto;
+	height:327px;
+	width: 1004px;
+
+}
+.cententList
+{
+	clear:both;
+	margin:0px auto;
+	width:1004px;
+}
+.centent01
+{ width:335px;
+float:left;
+}
+
+/*cyy 20150921 修改*/
+.centent02
+{ 
+width:333px;
+float:left;
+}
+.centent03
+{ 
+width:334px;
+float:left;
+
+}
+
+.titleBg
+{
+	background:#FFF;
+	height:60px;
+}
+/*cyy 20150921 修改*/
+.c01Title
+{
+	width:250px;
+	background:url(../images/4.jpg);
+	background-repeat:no-repeat;
+	height:60px;
+	float:left
+
+}
+
+.morebg
+{
+	float:right;
+	padding-top:30px;
+	padding-right:10px;
+}
+/*cyy 20150921 修改*/
+.c02Title
+{
+	width:250px;
+	background:url(../images/5.jpg);
+	background-repeat:no-repeat;
+	height:60px;
+	float:left;
+}
+
+/*cyy 20150921 修改*/
+.c03Title
+{
+	width:250px;
+	background:url(../images/6.jpg);
+	background-repeat:no-repeat;
+	height:60px;
+	float:left;
+}
+.cCentent
+{
+	clear:both;
+	height:260px;
+	background:#FFF;
+	padding:10px 15px 10px 15px;
+	
+}
+.c01bottom
+{
+	width:334px;
+	background:url(../images/index_12.jpg);
+	background-repeat:no-repeat;
+	height:8px;
+}
+.c03bottom
+{
+	width:334px;
+	background:url(../images/index_14.jpg);
+	background-repeat:no-repeat;
+	height:8px;
+}
+
+.firstTtitle a
+{
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+.firstTtitle a:link,a:visiteid 
+{
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+.firstTtitle a:hover
+{
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+
+.FirstNews
+{
+	clear:both;
+	margin-top:5px;
+}
+.FirstNewsPic
+{
+	float:left;
+}
+.FirstNewsCentent
+{
+	width:160px;
+	color:#454545;
+	line-height:25px;
+	float:right;
+	font-size:12px;
+}
+
+
+.FirstNewsCentent a
+{
+	text-decoration:none;
+	color:#ff8c03;
+}
+.FirstNewsCentent a:link,a:visiteid 
+{
+	color:#ff8c03;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+}
+.FirstNewsCentent a:hover
+{
+	color:#ff0000;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+}
+.NewsList
+{
+	clear:both;
+}
+.NewsListUl
+{
+	margin:0px;
+	padding-left:15px;
+	list-style:none;
+}
+.NewsListUl li
+{
+	width:280px;
+	padding: 6px 0px; 
+	font-size:12px;
+	color:#000;
+	vertical-align:middle;
+	list-style-image:url(../../images/ico/dian.gif);
+}
+.NewsListUl li span
+{
+	float:right;
+	color:#8e8e8e;
+}
+.NewsListUl li a
+{
+	text-decoration:none;
+	color:#000;
+}
+.NewsListUl li a:hover
+{
+	color:#ff8c03;
+}
+.ProductListUl
+{
+	list-style:none;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+.ProductListUl li
+{
+	float:left;
+	width:150px;
+	list-style:none;
+	font-size:12px;
+	color:#454545;
+	text-align:center;
+}
+.ProductListUl li a
+{
+	text-decoration:none;
+	color:#454545;
+	line-height:25px;
+	height:15px;
+}
+.ProductListUl li a:hover
+{
+	color:#ff8c03;
+	height:25px;
+	line-height:25px;
+}
+.productPic
+{
+	padding:5px;
+}
+.ServiceListUl
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.ServiceListUl li
+{
+	list-style:none;
+	height:80px;
+	text-align:center;
+}
+/*cyy 20150922 修改*/
+.CompanyInfo
+{
+	clear:both;
+	margin:0px auto;
+	width:1004px;
+	height:125px;
+
+}
+.CompanyInfo a
+{
+	text-decoration:none;
+	color:#ff8c03;
+}
+.CompanyInfo a:link,a:visiteid 
+{
+	color:#ff8c03;
+	font-size:12px;
+	text-decoration:none;
+}
+.CompanyInfo a:hover
+{
+	color:#ff0000;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+}
+.C0Title
+{
+	width:168px;
+	background:url(../images/7.jpg);
+	background-repeat:no-repeat;
+	height:42px;	
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.CompanyInfo .C01
+{
+	float:left;
+}
+/*cyy 20150922 修改*/
+.CompanyInfo .C01 img
+{
+	width: 91px;
+	height: 64px;
+}
+/*cyy 20150921 修改*/
+.CompanyInfo .C02
+{
+	float:left;
+	width:870px;
+	padding:0px 5px 8px 5px;
+}
+.CompanyInfo .C02 .title 
+{
+	font-size:18px;
+	color:#252525;
+}
+/*cyy 20150921 修改*/
+.CompanyInfo .C02 div
+{
+	color:#454545;
+	line-height:28px;
+	font-size:12px;
+	padding-left:10px;
+	padding-top:3px;
+}
+.CompanyInfo .C03
+{
+	float:right;
+	width:300px;
+}
+.CompanyInfo .C03 .title 
+{
+	font-size:18px;
+	color:#252525;
+}
+.CompanyInfo .C03 Ul
+{
+	list-style:none;
+	margin:0px;
+	padding: 3px 0px 0px 0px;
+}
+.CompanyInfo .C03 Ul li
+{
+	margin:0px;
+	padding:2px 0px 0px 20px;
+	float:left;
+	width:80px;
+	font-size:12px;
+	background:url(../images/friendlink_34.jpg);
+	background-repeat:no-repeat;
+	list-style:none;
+	list-style-position: inside;
+	height:20px;
+}
+.CompanyInfo .C03 Ul li a
+{
+	color:#666666;
+	font-size:12px;
+	text-decoration:none;
+	
+}
+.CompanyInfo .C03 Ul li a:hover
+{
+	color:#ff8c03;
+	font-size:12px;
+	text-decoration:none;
+	
+}

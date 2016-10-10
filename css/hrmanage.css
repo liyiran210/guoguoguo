@@ -1,0 +1,58 @@
+.big_title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.box-content{
+    display: none;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.content-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+    color: #454545;
+    line-height: 30px;
+    overflow: hidden;
+}
+.box_title{
+    margin-left:0;
+}
+.box_click{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #878787;
+}
+.box a{
+    cursor: pointer;
+}
+.hr-list {
+    border-top: 1px #eee solid;
+}
+.hr-list > li {
+    border-bottom: 1px #eee solid;
+    line-height: 40px;
+}
+.hr-list > li > div > a {
+    padding-left: 5px;
+    width: 80%;
+    /*background: url(../images/news-po.png) left center no-repeat;*/
+    font-size: 18px;
+    font-weight: bold;
+}
+.hr-list > li > div >a:before{
+    content: ">> \20 \20 \20 \20"
+}
+.hr-list > li > div >a:hover {
+    color: #c12c2c;
+}
+.hr-list > li > div > span {
+    float: right;
+    color: #999;
+}
